@@ -12,8 +12,8 @@
     "Frontend": {
       "EmberJs": {
         "EmberApp": true,
-        "EmberAddon": false,
-        "Build": false,
+        "EmberAddon": true,
+        "Build": true,
         "GitClone": false,
         "GitPush": false,
         "GhPagesPush": true
@@ -25,7 +25,7 @@
     },
     "Backend": {
       "AspNet": true,
-      "AspNetCore": false,
+      "AspNetCore": true,
       "Java": false
     },
     "Docker": {
@@ -36,7 +36,7 @@
     },
     "Storage": {
       "Mssql": {
-        "DiffSql": false,
+        "DiffSql": true,
         "FullSql": true,
         "Security": false,
         "AdminUser": false,
